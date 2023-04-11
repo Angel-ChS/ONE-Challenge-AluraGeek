@@ -1,0 +1,10 @@
+.banner{
+    box-sizing: border-box;
+    background-image: url(../img/despensa.jpg);
+    background-size: 375px 192px ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: flex-end;
+}
