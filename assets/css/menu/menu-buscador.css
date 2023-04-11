@@ -1,0 +1,78 @@
+.buscador_div{
+    box-sizing: border-box;
+    height: 45px;
+}
+.buscador{
+    display: flex;
+    box-sizing: border-box;
+    /*width: 240px;*/
+    /*position: absolute;
+    right: 0px; /*Con esto movemos todo el boton de buscar */
+}
+.buscador__input{
+    display: none;
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+
+}
+.buscador__input::placeholder{
+    color: gray;
+}
+
+.buscador__icon{
+    /*position: absolute;
+    top: 0px;sssssssss 
+    right: 0px;*/
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 5px;
+    background: var(--background-claro);
+    /*border: 1px solid var(--color-fuerte);*/
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.buscador:hover .buscador__input{
+    width: 240px;
+    display: block;
+    /*align-self: flex-end;
+    /*top: 60px;*/
+}
+/*.buscador:hover .buscador__icon{
+    /*align-self: flex-end;
+}*/
+/*.buscador:hover, .buscador__input{
+    top: 60px;
+}
+/*.buscador__input:focus .buscador{
+    width: 240px;
+}*/
+
+/*.buscador:valid .buscador__input{
+   width: 240px;
+   top: 60px;
+}*/
+
+
+/*.buscador:hover .logo{
+    display: none;
+}*/
+
+
+/*Tengo muchas dudas hacerca de si así se podra buscar un dato y funcionara el icono commo boton
+tambien tengo que ver si puedo ocultar el boton login y el logo cuando le haga click al boton de buscar
+tambien tengo que ver que se mantenga estatico cuando tenga texto adentro osea que no se cierre */

@@ -1,0 +1,13 @@
+:root{
+
+    /*--background-morado: #b513cad3;/*Ejemplo*/ 
+    --background-claro: #F6F9E1;
+
+    --color-fuerte: #DA2B1F;
+
+    --alkatra: 'Alkatra', cursive;
+    --raleway: 'Raleway', sans-serif;
+}
+body{
+    font-family: var(--alkatra);
+}

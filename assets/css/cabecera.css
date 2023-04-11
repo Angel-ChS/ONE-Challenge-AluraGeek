@@ -1,0 +1,9 @@
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+    background: var(--background-claro);
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    padding: 10px 10px; 
+}
