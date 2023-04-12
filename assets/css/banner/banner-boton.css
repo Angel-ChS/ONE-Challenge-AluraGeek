@@ -1,0 +1,8 @@
+.banner__boton{
+    border: 1px solid var(--color-fuerte);
+    background: var(--color-fuerte);
+    font-family: var(--raleway);
+    color: var(--background-claro);
+    padding: 10px;
+    text-align: center;
+}
