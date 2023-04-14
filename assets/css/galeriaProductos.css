@@ -1,0 +1,12 @@
+.galeriaProductos{
+    background: var(--background-claro);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card__oculta{
+    display: none;
+}

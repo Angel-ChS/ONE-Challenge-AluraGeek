@@ -1,0 +1,7 @@
+.galeriaProductos__titulo{
+    color: var(--color-fuerte); 
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+}

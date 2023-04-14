@@ -1,0 +1,7 @@
+.galeriaProductos__nombre{
+    font-family: var(--raleway);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-claro);
+    margin: 5px 0px;
+}
