@@ -1,11 +1,13 @@
 :root{
 
-    /*--background-morado: #b513cad3;/*Ejemplo*/ 
+    /*--background-morado: #F3D1A9;/*Ejemplo*/ 
     --background-claro: #F6F9E1;
+    --background-fuerte: #F9D8B2;
 
     --color-fuerte: #DA2B1F;
     --color-claro: #464646;
     --color-abarrotes: #6ABA69;
+    --color-sinSeleccion: #A2A2A2;
 
     --alkatra: 'Alkatra', cursive;
     --raleway: 'Raleway', sans-serif;

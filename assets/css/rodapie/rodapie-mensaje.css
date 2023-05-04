@@ -1,0 +1,40 @@
+.rodapie__mensaje{
+    width: 100%;
+    margin-bottom: 8px;
+    height: 86px;
+    font-size: 16px;
+    color: var(--color-claro);
+    font-family: var(--raleway);
+    padding: 18px 12px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid var(--color-sinSeleccion);
+}
+
+.rodapie__mensaje:focus{
+    outline: none; 
+    border-bottom-color: var(--color-fuerte); 
+}
+
+.rodapie__mensaje:focus + .mensaje__label{
+    color: var(--color-fuerte);
+}
+
+.rodapie__mensaje::placeholder{
+    visibility: hidden;
+}
+
+.mensaje__label{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 16px;
+    color: var(--color-sinSeleccion);
+    transition: all 0.25s;
+}
+
+.rodapie__mensaje:focus + .mensaje__label, .rodapie__mensaje:not(:placeholder-shown) + .mensaje__label{
+    top: 5px;
+    font-size: 12px;
+    transition: all 0.25s;
+}

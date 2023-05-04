@@ -1,0 +1,11 @@
+.rodapie__boton{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: var(--raleway);
+    font-weight: 400; 
+    text-align: center;
+    border: none;
+    padding: 12px 16px; 
+    background-color: var(--color-fuerte); 
+    color: var(--background-fuerte);
+}
