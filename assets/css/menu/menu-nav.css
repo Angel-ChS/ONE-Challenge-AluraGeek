@@ -5,3 +5,9 @@
     flex-grow: 1;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 768px){
+    .menu__nav{
+        justify-content: space-between; 
+    }
+}

@@ -76,3 +76,17 @@
 /*Tengo muchas dudas hacerca de si así se podra buscar un dato y funcionara el icono commo boton
 tambien tengo que ver si puedo ocultar el boton login y el logo cuando le haga click al boton de buscar
 tambien tengo que ver que se mantenga estatico cuando tenga texto adentro osea que no se cierre */
+
+
+
+@media screen and (min-width: 768px){
+    .buscador_div{
+        margin: 20px; 
+
+    }
+
+    .buscador__input{
+        width: 240px;
+        display: block;
+    }
+}

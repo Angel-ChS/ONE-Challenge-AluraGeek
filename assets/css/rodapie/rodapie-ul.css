@@ -14,3 +14,9 @@
     font-weight: 400; 
     color: var(--color-claro);
 }
+
+@media screen and (min-width: 768px){
+    .rodapie__ul{
+        align-items: start;
+    }
+}

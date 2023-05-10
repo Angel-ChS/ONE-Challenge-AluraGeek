@@ -1,3 +1,11 @@
 .rodapie__lista{
     margin: 20px 0px;
 }
+
+@media screen and (min-width: 768px){
+    .rodapie__lista{
+        margin-top: 0px;
+        margin-left: 32px; 
+        margin-bottom: 32px;
+    }
+}

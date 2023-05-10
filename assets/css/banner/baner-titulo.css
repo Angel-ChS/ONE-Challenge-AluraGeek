@@ -5,3 +5,11 @@
     color: var(--color-fuerte);
 
 }
+
+@media  screen and (min-width: 768px) {
+
+    .banner__titulo{
+        font-size: 52px;
+    }
+    
+}

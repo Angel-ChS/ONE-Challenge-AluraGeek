@@ -4,3 +4,14 @@
     flex-wrap: wrap;
     margin: 20px 10px 10px 10px;
 }
+
+@media screen and (min-width: 768px){
+    .galeriaProductos__contenedor{
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 32px; 
+        margin-top: 0px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}

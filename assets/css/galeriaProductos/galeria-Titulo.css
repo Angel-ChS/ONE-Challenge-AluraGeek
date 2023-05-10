@@ -4,4 +4,12 @@
     font-weight: bold;
     margin-top: 20px;
     margin-left: 10px;
+} 
+
+@media screen and (min-width: 768px){
+    .galeriaProductos__titulo{
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-bottom: 16px;
+    }
 }
