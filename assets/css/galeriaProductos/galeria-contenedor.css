@@ -15,3 +15,10 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .galeriaProductos__contenedor{
+        margin: 0px 150px 64px 150px;
+        /*justify-content: start;*/
+    }
+}

@@ -17,3 +17,12 @@
         margin-bottom: 16px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .galeriaProductos__vermas{
+        margin-top: 0px;
+        margin-bottom: 16px;
+        margin-left: calc(100% - 484px);
+        margin-right: 150px;
+    }
+}

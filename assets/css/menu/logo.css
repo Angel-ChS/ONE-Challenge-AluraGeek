@@ -20,3 +20,13 @@
         margin: 20px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .logo_div{
+        margin: 32px 20px;
+        
+    }
+    .logo_div--footer{
+        margin: 0px;
+    }
+}

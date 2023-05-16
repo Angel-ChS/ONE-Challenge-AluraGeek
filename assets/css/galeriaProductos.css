@@ -10,3 +10,12 @@
 .card__oculta{
     display: none;
 }
+
+@media screen and (min-width: 1024px){
+    .galeriaProductos__top{
+        padding-top: 64px;
+    }
+    .card__oculta{
+        display: block;
+    }
+}

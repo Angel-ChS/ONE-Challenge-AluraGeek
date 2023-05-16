@@ -2,3 +2,10 @@
     width: 156px;
     height: 174px;
 }
+
+
+@media screen and (min-width: 1024px){
+    .galeriaProductos__imagen{
+        width: 176px;
+    }
+}

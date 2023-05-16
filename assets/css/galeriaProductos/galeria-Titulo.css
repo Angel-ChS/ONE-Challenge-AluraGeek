@@ -13,3 +13,11 @@
         margin-bottom: 16px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .galeriaProductos__titulo{
+        margin-top: 0px;
+        margin-bottom: 16px;
+        margin-left: 150px;
+    }
+}

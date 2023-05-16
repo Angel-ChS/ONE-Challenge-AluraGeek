@@ -90,3 +90,10 @@ tambien tengo que ver que se mantenga estatico cuando tenga texto adentro osea q
         display: block;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .buscador_div{
+        margin: 32px 20px;
+        
+    }
+}
