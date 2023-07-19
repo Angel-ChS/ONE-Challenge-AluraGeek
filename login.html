@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Andy - login</title>
+    <link rel="stylesheet" href="./assets/css/reset.css"> 
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/menu/logo.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-nav.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-buscador.css"> 
+
+    <link rel="stylesheet" href="./assets/css/rodapie.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/rodapie-lista.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/rodapie-ul.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/rodapie-formulario.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/rodapie-parrafo.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/rodapie-form.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/input-container.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/rodapie-input.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/rodapie-mensaje.css">
+    <link rel="stylesheet" href="./assets/css/rodapie/rodapie-boton.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+
+</head>
+<body>
+    <header class="cabecera">
+
+        <nav class="menu__nav">
+
+            <a class="logo_div" href="./index.html">
+                <img class="logo" src="./assets/img/logo_tienda_64.png" alt="Logo">
+                <h1 class="logo__titulo">Tienda Andy</h1>
+            </a>
+
+            <div class="buscador_div">
+                
+                <div class="buscador">
+                    <input class="buscador__input" type="text" placeholder="Buscar">
+                    <div class="buscador__icon">
+                        <img class="icon" src="./assets/img/Vector.svg" alt="boton de buscar">
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <h3>Hola, este es el login</h3>
+        <section>
+            <h3>Iniciar secion</h3>
+            <form action="">
+                <div>
+                    <input type="text">
+                    <label for="">Escriba su correo electronico</label>
+                </div>
+                <div>
+                    <input type="text">
+                    <label for="">Escriba su contraseña</label>
+                </div>
+                <button>Entrar</button>
+            </form>
+        </section>
+
+        <section class="rodapie">
+            <div class="logo_div logo_div--footer">
+                <img class="logo" src="./assets/img/logo_tienda_64.png" alt="Logo">
+                <h1 class="logo__titulo">Tienda Andy</h1>
+            </div>
+            <div class="rodapie__lista">
+                <ul class="rodapie__ul">
+                    <li class="rodapie__li"><a class="rodapie__link" href="">¿Quienes somos?</a></li>
+                    <li class="rodapie__li"><a class="rodapie__link" href="">Politica de privacidad</a></li>
+                    <li class="rodapie__li"><a class="rodapie__link" href="">Programa de fidelidad</a></li>
+                    <li class="rodapie__li"><a class="rodapie__link" href="">Nuestras tiendas</a></li>
+                    <li class="rodapie__li"><a class="rodapie__link" href="">Quiero ser franquiciado</a></li>
+                    <li class="rodapie__li"><a class="rodapie__link" href="">Anunciate aquí</a></li>
+                </ul>
+            </div>
+            <div class="rodapie__formulario">
+                <p class="rodapie__parrafo">Hable con nosotros</p>
+                <form class="rodapie__form" action="">
+                    <div class="input__container">
+                        <input class="rodapie__input" name="nombre" type="text" placeholder=" ">
+                        <label class="rodapie__label" for="nombre" >Nombre</label>
+                    </div>
+                    <div class="input__container"> 
+                        <textarea class="rodapie__mensaje" name="mensaje" id="" cols="30" rows="10" placeholder=" "></textarea>
+                        <label class="mensaje__label" for="mensaje" >Mensaje</label>
+                    </div>   
+                    <button class="rodapie__boton">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Angel Chan</p>
+        <p>2023</p>
+    </footer>
+</body>
+</html>
