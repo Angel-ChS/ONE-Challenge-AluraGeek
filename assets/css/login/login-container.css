@@ -1,0 +1,8 @@
+.login__container{
+    display: flex;
+    margin: 8px 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    /*align-items: center; */
+}

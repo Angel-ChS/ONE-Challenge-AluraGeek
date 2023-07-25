@@ -1,0 +1,7 @@
+.login{
+    display: flex;
+    background: var(--background-claro);
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0px;
+}
