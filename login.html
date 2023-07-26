@@ -46,7 +46,7 @@
             <div class="buscador_div">
                 
                 <div class="buscador">
-                    <input class="buscador__input" type="text" placeholder="Buscar">
+                    <input class="buscador__input" id="buscador__input" type="text" placeholder="Buscar">
                     <div class="buscador__icon">
                         <img class="icon" src="./assets/img/Vector.svg" alt="boton de buscar">
                     </div>
@@ -58,16 +58,16 @@
     <main>
         <section class="login">
             <p class="rodapie__parrafo">Iniciar sesión</p>
-            <form class="login__form" action="">
+            <form class="login__form" action="" autocomplete="off">
                 <div class="login__container">
-                    <input class="login__input" name="email" type="email" placeholder=" " >
+                    <input class="login__input" name="email" id="email" type="email" placeholder=" " autocomplete="off">
                     <label class="login__label" for="email">Escriba su correo electronico</label>
                 </div>
                 <div class="login__container">
-                    <input class="login__input" name="password" type="password" placeholder=" ">
+                    <input class="login__input" name="password" id="password" type="password" placeholder=" ">
                     <label class="login__label" for="password">Escriba su contraseña</label>
                 </div>
-                <button class="login__boton">Entrar</button>
+                <button class="login__boton" type="submit">Entrar</button>
             </form>
         </section>
 
@@ -90,11 +90,11 @@
                 <p class="rodapie__parrafo">Hable con nosotros</p>
                 <form class="rodapie__form" action="">
                     <div class="input__container">
-                        <input class="rodapie__input" name="nombre" type="text" placeholder=" ">
+                        <input class="rodapie__input" name="nombre" id="nombre" type="text" placeholder=" ">
                         <label class="rodapie__label" for="nombre" >Nombre</label>
                     </div>
                     <div class="input__container"> 
-                        <textarea class="rodapie__mensaje" name="mensaje" id="" cols="30" rows="10" placeholder=" "></textarea>
+                        <textarea class="rodapie__mensaje" name="mensaje" id="mensaje" cols="30" rows="10" placeholder=" "></textarea>
                         <label class="mensaje__label" for="mensaje" >Mensaje</label>
                     </div>   
                     <button class="rodapie__boton">Enviar Mensaje</button>
