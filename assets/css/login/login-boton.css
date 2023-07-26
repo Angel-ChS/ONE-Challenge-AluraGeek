@@ -11,3 +11,10 @@
     background-color: var(--color-fuerte); 
     color: var(--background-fuerte);
 }
+
+@media screen and (min-width: 1024px){
+    .login__boton{
+        width: 100%; 
+        font-size: 18px;
+    }
+}

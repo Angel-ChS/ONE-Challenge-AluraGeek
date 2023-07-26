@@ -5,3 +5,10 @@
     color: var(--color-claro);
     margin: 8px 0px;
 }
+
+@media  screen and (min-width: 1024px) {
+    .rodapie__parrafo{
+        font-size: 18px;
+    }
+    
+}

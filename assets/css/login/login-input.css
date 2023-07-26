@@ -37,3 +37,14 @@
     font-size: 12px;
     transition: all 0.25s;
 }
+
+
+@media screen and (min-width: 1024px){
+    .login__input{
+        height: 64px;
+        font-size: 18px;
+    }
+    .login__label{
+        font-size: 18px;
+    }
+}
