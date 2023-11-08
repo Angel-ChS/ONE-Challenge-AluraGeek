@@ -1,0 +1,7 @@
+.inventario__imagen{
+    width: 156px;
+    height: 174px; 
+    background-image: url(../../img/aceite.jpg);
+    background-size: 100% 174px ; /*Este funciona para acomodar el tamaño de la imagen de forma natura a lo ancho y largo*/
+    background-repeat: no-repeat;
+}

@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="./assets/css/menu/menu-nav.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-buscador.css">
 
+    <link rel="stylesheet" href="./assets/css/inventario.css">
+    <link rel="stylesheet" href="./assets/css/inventario/inventario-cabecera.css">
+    <link rel="stylesheet" href="./assets/css/inventario/inventario-contenedor.css">
+    <link rel="stylesheet" href="./assets/css/inventario/inventario-card.css">
+    <link rel="stylesheet" href="./assets/css/inventario/inventario-imagen.css">
+    <link rel="stylesheet" href="./assets/css/inventario/inventario-nombre.css">
+    <link rel="stylesheet" href="./assets/css/inventario/inventario-precio.css">
+
     <link rel="stylesheet" href="./assets/css/rodapie.css">
     <link rel="stylesheet" href="./assets/css/rodapie/rodapie-lista.css">
     <link rel="stylesheet" href="./assets/css/rodapie/rodapie-ul.css">
@@ -50,7 +58,25 @@
     <main>
 
         <section class="inventario">
-            <p>Aquí va el inventario </p>
+            <div class="invetnario__cabecera">
+                <h3 class="inventario__titulo">Todos los productos</h3>
+                <a class="inventario__boton" href="#">Agregar producto</a>
+            </div>
+            <div class="inventario__contenedor">
+                <div class="inventario__card">
+                    <div class="inventario__imagen"><a href="#">D</a><a href="#">U</a></div><!--En este div pondremos la imagen como background la D es del icono de delete y la u del update-->
+                    <h5 class="inventario__nombre">Producto XYZ</h5>
+                    <p class="inventario__precio">$60</p>
+                    <p class="inventario__id">#11111</p>
+                </div>
+                <div class="inventario__card">
+                    <div class="inventario__imagen"><a href="#">D</a><a href="#">U</a></div>
+                    <h5 class="inventario__nombre">Producto XYZ</h5>
+                    <p class="inventario__precio">$60</p>
+                    <p class="inventario__id">#11111</p>
+                </div>
+
+            </div>
         </section>
 
 

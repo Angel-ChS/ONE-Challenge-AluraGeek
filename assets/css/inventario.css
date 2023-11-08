@@ -1,0 +1,8 @@
+.inventario{
+    background: var(--background-claro);
+    padding: 32px 0px; 
+    /*box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;*/
+}
