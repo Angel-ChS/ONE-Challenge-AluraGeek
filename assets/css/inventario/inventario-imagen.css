@@ -1,7 +1,24 @@
+.inventario__contenedor--imagen{
+    position: relative; /*Esto es para poner lo iconos sobre la imagen*/
+    /*
+    la posicion de las etiquetas era al reves a como estan ahora, primero era: el div con 
+    class="inventario__contenedor--imagen" el cual encierra a la etiqueta img y despues a los div con los iconos.
+    Pues antes era primero la etiqueta img y despues los iconos, pero con las posiciones de relative y absolute
+    no podia hacer que los iconos se pongan sobre la imagen, pero cuando inverti las posiciones, osea primero
+    los iconos y despues la imagen, pues se puso por debajo de los iconos y aún no se ¿por qué? y entonces quedo 
+    como queria. Como esta ahora
+    */
+}
 .inventario__imagen{
     width: 156px;
-    height: 174px; 
-    background-image: url(../../img/aceite.jpg);
-    background-size: 100% 174px ; /*Este funciona para acomodar el tamaño de la imagen de forma natura a lo ancho y largo*/
-    background-repeat: no-repeat;
+    height: 174px;  
+    /*background-image: url(../../img/aceite.jpg); /*Esto se comento porque en un principio usé la imagen de esta forma, pero seria
+    imposible hacer esto para cada imagen de cada producto
+    background-size: 100% 174px ; /*Este funciona para acomodar el tamaño de la imagen de forma natura a lo ancho y largo
+    background-repeat: no-repeat;*/
+}
+
+.inventario__CRUD{
+    position: absolute;/*Esto es para poner lo iconos sobre la imagen*/
+    padding-left: 98px;
 }
