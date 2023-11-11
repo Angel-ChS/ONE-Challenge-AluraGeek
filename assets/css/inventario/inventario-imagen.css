@@ -22,3 +22,9 @@
     position: absolute;/*Esto es para poner lo iconos sobre la imagen*/
     padding-left: 98px;
 }
+
+@media screen and (min-width: 1024px){
+    .inventario__imagen{
+        width: 176px;
+    }
+}

@@ -11,4 +11,12 @@
         margin-right: 30px;
         justify-content: flex-start; 
     }
+} 
+
+@media screen and (min-width: 1024px){
+    .inventario__contenedor{
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
 }

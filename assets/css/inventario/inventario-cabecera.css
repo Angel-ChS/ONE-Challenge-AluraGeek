@@ -27,3 +27,9 @@
         align-items: baseline; /*alinea los items con base a la linea de texto, los centra*/
     }
 }
+
+@media screen and (min-width: 1024px){
+    .inventario__cabecera{
+        padding: 0px;
+    }
+}
